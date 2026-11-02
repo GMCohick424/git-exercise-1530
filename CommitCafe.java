@@ -15,6 +15,7 @@ public class CommitCafe {
 
     public static void printSummary() {
         System.out.println("[SUMMARY] " + barista + " brewed " + cups + " cups today.");
+        System.out.print(barista + " is the " + title + "!");
     }
 
     public static void main(String[] args) {
